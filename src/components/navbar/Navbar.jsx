@@ -1,18 +1,19 @@
 import { useState } from "react";
 import "./navbar.scss";
+import { Link } from "react-router-dom";
 function Navbar() {
   const [open,setOpen] = useState(false)
   return (
     <nav>
       <div className="left">
-        <a href="/" className="logo">
-          <img src="/logo.png" alt="" />
+        <Link to="/" className="logo">
+          <img src="/logo.png" alt="logo" />
           <span>esate</span>
-        </a>
-        <a href="/">HOME</a>
-        <a href="/">about</a>
-        <a href="/">contact</a>
-        <a href="/">agents</a>
+        </Link>
+        <Link to="/">HOME</Link>
+        <Link to="/">about</Link>
+        <Link to="/">contact</Link>
+        <Link to="/">agents</Link>
       </div>
 
       <div className="right">
@@ -21,7 +22,11 @@ function Navbar() {
           signup
         </a>
         <div className="menuIcon">
-          <img src="/menu.png" alt="" onClick={()=>setOpen((prev) => !prev)}/>
+          <img
+            src="/menu.png"
+            alt=""
+            onClick={() => setOpen((prev) => !prev)}
+          />
         </div>
         <div className={open ? "menu active" : "menu"}>
           <a href="/">home</a>
