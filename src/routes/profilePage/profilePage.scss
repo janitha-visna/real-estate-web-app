@@ -6,8 +6,7 @@
     flex: 3;
     overflow-y: scroll;
     padding-bottom: 50px;
-    border-bottom: 50px;
-    margin-bottom: 50px;
+    
     
 
     .wrapper {
@@ -64,6 +63,7 @@
 
     .wrapper {
       padding: 0px 20px;
+      height: 100%;
     }
   }
 }
