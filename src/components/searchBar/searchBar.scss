@@ -2,13 +2,16 @@
 
 .searchBar {
   .type {
+    margin-bottom: 5px;
     button {
       padding: 16px 36px;
       border: 1px solid #999;
       cursor: pointer;
       background-color: white;
       text-transform: capitalize;
+      font-weight: bold;
       border-bottom: none;
+      margin-right: 5px;
 
       &.active {
         background-color: black;
@@ -16,22 +19,20 @@
       }
 
       &:first-child {
-        border-top-left-radius: 5px;
-        border-right: none;
+        border-radius: 25px;
       }
       &:last-child {
-        border-top-right-radius: 5px;
-        border-left: none;
+        border-radius: 25px;
       }
     }
   }
 
   form {
-    border: 1px solid #999;
     display: flex;
     justify-content: space-between;
     height: 64px;
     gap: 5px;
+    margin-right: 5px;
 
     @include sm {
       flex-direction: column;
@@ -39,9 +40,12 @@
     }
 
     input {
-      border: none;
+      border-radius: 25px;
       padding: 0px 10px;
       width: 200px;
+      border: 1px solid #999;
+
+      
 
       @include lg {
         padding: 0px 5px;
@@ -71,10 +75,11 @@
       }
     }
     button {
-      border: none;
+      border-radius: 25px;
       cursor: pointer;
       background-color: #fece51;
       flex: 1;
+      border: 1px solid #999;
 
       @include sm {
         padding: 10px;
