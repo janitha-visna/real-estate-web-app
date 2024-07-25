@@ -17,9 +17,8 @@ export const getPosts = async (req, res) => {
         },
       },
     });
-    setTimeout(() => {
-      res.status(200).json(posts);
-    }, 1000);
+
+    res.status(200).json(posts);
   } catch (err) {
     console.log(err);
     res.status(500).json({ message: "failed to get posts" });
@@ -61,7 +60,7 @@ export const getPost = async (req, res) => {
     res.status(200).json({ ...post, isSaved: false });
   } catch (err) {
     console.log(err);
-    res.status(500).json({ message: "failed to get post" });
+    res.status(500).json({ message: "Failed to get post" });
   }
 };
 export const addPost = async (req, res) => {
