@@ -36,7 +36,7 @@ This project is a **Real Estate Web Application** developed using a MERN stack a
 <img width="960" alt="Screenshot 2024-07-28 130857" src="https://github.com/user-attachments/assets/aa270c85-f156-46f8-b238-ac7e6e7383ce">
 </details>
 
-## system diagram of the real estate web application
+## System diagram of the real estate web application
 
 ![diagram](https://github.com/user-attachments/assets/2abd6d87-3345-47e1-a122-d5054de59bbf)
 
