@@ -24,6 +24,10 @@ This project is a **Real Estate Web Application** developed using a MERN stack a
 **Server:** Node.js , Express.js
 
 **Database:** MongoDB
+## system diagram of the real estate web application
+
+![diagram](https://github.com/user-attachments/assets/2abd6d87-3345-47e1-a122-d5054de59bbf)
+
 ## Image upload process
 Our application uses Cloudinary for image uploading and storage. Here’s how the process works:
 
