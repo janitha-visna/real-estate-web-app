@@ -24,6 +24,17 @@ This project is a **Real Estate Web Application** developed using a MERN stack a
 **Server:** Node.js , Express.js
 
 **Database:** MongoDB
+
+## UI Interface
+
+<img width="960" alt="Screenshot 2024-07-28 130543" src="https://github.com/user-attachments/assets/5da2e50d-ffc2-45bf-afc6-292889f01e7e">
+<img width="960" alt="Screenshot 2024-07-28 130519" src="https://github.com/user-attachments/assets/4cb70362-59d7-497f-96a4-0339e5999e02">
+<img width="960" alt="Screenshot 2024-07-28 114003" src="https://github.com/user-attachments/assets/f92380e3-bedf-4bf8-a267-cb947edf6602">
+<img width="960" alt="Screenshot 2024-07-28 113839" src="https://github.com/user-attachments/assets/0de66bb8-c4da-4cd9-b08a-2510fe0da5e1">
+<img width="960" alt="Screenshot 2024-07-28 113730" src="https://github.com/user-attachments/assets/00b9392d-b6a9-475b-bfaf-0615ff52c7a8">
+<img width="960" alt="Screenshot 2024-07-28 130857" src="https://github.com/user-attachments/assets/aa270c85-f156-46f8-b238-ac7e6e7383ce">
+
+
 ## system diagram of the real estate web application
 
 ![diagram](https://github.com/user-attachments/assets/2abd6d87-3345-47e1-a122-d5054de59bbf)
