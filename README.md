@@ -49,7 +49,7 @@ Our application uses Cloudinary for image uploading and storage. Here’s how th
 4. **Database Storage**: The `secure_url` is saved in the database associated with the relevant property post.
 
 **prerequisite**
-1. create a Cloudinary account.
+1. create a Cloudinary account.https://cloudinary.com/
 2. create a upload preset
   - set upload preset name.
   - set signing mode to `Unsigned`.
@@ -58,11 +58,10 @@ Our application uses Cloudinary for image uploading and storage. Here’s how th
 
    
 
-## Screenshots
+## Cloudinary
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="960" alt="Screenshot 2024-07-28 135626" src="https://github.com/user-attachments/assets/122c67c7-8ad9-44d2-ad24-bd97e7c97c97">
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file on the `api` directory
@@ -86,14 +85,10 @@ To run this project, you will need to add the following environment variables to
 
 **run frontend Locally**
 
-```bash
-  git clone https://link-to-project
-```
-
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd react-estate-ui
 ```
 
 Install dependencies
@@ -110,14 +105,11 @@ Start the server
 
 **run api Locally**
 
-```bash
-  git clone https://link-to-project
-```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd api 
 ```
 
 Install dependencies
@@ -149,7 +141,7 @@ synchronizes your Prisma schema with your mongodb database schema
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd socket 
 ```
 Start the socket 
 
@@ -158,8 +150,4 @@ Start the socket
 ```
 
 
-## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
